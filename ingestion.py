@@ -1,3 +1,5 @@
+from logger import Colors, log_error, log_header, log_info, log_success
+
 async def main() :
     """Main async function to orchestrate the entire process."""
     log_header ("DOCUMENTATION INGESTION PIPELINE")
